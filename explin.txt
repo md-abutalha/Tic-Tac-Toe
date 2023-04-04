@@ -1,0 +1,13 @@
+This code is a program for a two-player Tic Tac Toe game written in C language. The game board is represented using a single-dimensional array named 'place', which holds ten characters. Each cell in the board is initially assigned a value from '0' to '9' to display its location on the board.
+
+The 'board()' function is used to display the Tic Tac Toe game board with the player's move. It displays the current state of the board after each player's turn.
+
+The 'check()' function is used to check if there is a winner or if the game is a draw. It returns 1 if there is a winner, 0 if the game is a draw, and -1 if the game is still ongoing.
+
+The main function initializes the variables used in the game, such as 'player', 'take', and 'choice'. The 'player' variable is used to determine which player is currently playing. The 'take' variable stores the character that represents the current player's move ('X' or 'O'). The 'choice' variable stores the position of the current player's move on the board.
+
+The while loop in the main function keeps the game running until there is a winner or a draw. Inside the loop, the board is displayed, and the current player is prompted to input their move. The input is validated to ensure it is within the range of the board and that the chosen cell is not already occupied. If the input is valid, the corresponding cell in the 'place' array is updated with the current player's move.
+
+After each player's turn, the 'check()' function is called to check if there is a winner or if the game is a draw. If there is a winner or a draw, the game ends, and the result is displayed. If the game is still ongoing, the 'player' variable is updated to the next player's turn, and the loop continues.
+
+Overall, this code provides a simple implementation of the classic Tic Tac Toe game using C language.
