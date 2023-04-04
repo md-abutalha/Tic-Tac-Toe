@@ -1,10 +1,6 @@
 #include<stdio.h>
 /* 
-Name: Md. Abu Talha
-ID :  04210101561
-semester: 7_A
-Game Name: Tic Tac Toe
-Phone: 01310-105350
+
 Email: abutalha.nub@gmail.com
 */
 char place[10]={'0','1','2','3','4','5','6','7','8','9'};
